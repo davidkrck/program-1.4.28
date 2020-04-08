@@ -2,15 +2,14 @@
 
 void rozsah_hodnot(float *data, int l, float *min, float *max){
     int i;
-    min = 0;
-    max = 0;
+    *min = data[0];
+    *max = data[0];
 
     for(i = 0, i < l; i++){
         if(*min < data[i])
             *min = data[i];
         else if (*max > data[i])
             *max = data[i];    
-
     }
 }
 
