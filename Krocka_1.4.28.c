@@ -9,8 +9,8 @@ int main(){
 
     rozsah_hodnot(data, l, &max, &min);
 
-    printf("max :%f", max);
-    printf("min :%f", min);
+    printf("Najväcsia hodnota z pola: %1.f\n", max);
+    printf("Najmensia hodnota z pola: %1.f", min);
 
 }
 
